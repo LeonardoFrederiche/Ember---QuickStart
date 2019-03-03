@@ -1,0 +1,24 @@
+body{
+	padding: 0px;
+}
+
+.custom-restricted-width{
+	background-color: #2d3436;
+	width: 200px;
+	height: 100vh;
+	float: left;
+	position: relative;
+	margin: 0px;
+}
+
+.pure-menu-heading{
+	color: #dfe6e9;
+	font-style: bold;
+	padding: 20px 10px;
+}
+
+.content{
+	position: relative;
+	float: left;
+	padding: 10px;
+}
