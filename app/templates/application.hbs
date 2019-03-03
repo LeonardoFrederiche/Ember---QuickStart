@@ -1,9 +1,19 @@
 <div class="pure-menu custom-restricted-width">
-    <span class="pure-menu-heading">Ember Quick-Start</span>
+    <span class="pure-menu-heading">
+    	{{#link-to 'index'}}Ember Quick-Start{{/link-to}}
+    </span>
 
     <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Cars</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Scientists</a></li>
+        <li class="pure-menu-item">
+        	{{#link-to 'cars' class='pure-menu-link'}}
+        		Cars
+        	{{/link-to}}
+        </li>
+        <li class="pure-menu-item">
+        	{{#link-to 'scientists' class='pure-menu-link'}}
+        		Scientists
+        	{{/link-to}}
+        </li>
     </ul>
 </div>
 
